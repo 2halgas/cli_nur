@@ -443,8 +443,6 @@ async function buildStylesIndex() {
         "tailwindcss-animate",
         "class-variance-authority",
         "lucide-react",
-        // TODO: Remove this when we migrate to lucide-react.
-        style.name === "new-york" ? "@radix-ui/react-icons" : "",
       ],
       registryDependencies: ["utils"],
       tailwind: {
