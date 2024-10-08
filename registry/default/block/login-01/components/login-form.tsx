@@ -32,7 +32,7 @@ export function LoginForm() {
             </div>
             <Input id="password" type="password" required />
           </div>
-          <Button type="submit" className="w-full">
+          <Button type="submit" variant="secondary" className="w-full">
             Войти
           </Button>
         </div>
